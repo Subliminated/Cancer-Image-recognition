@@ -28,7 +28,7 @@ Pre-processed data via the following steps:
  1) Initialised global varables - batch size, no. epochs, feature extraction
  2) Initialised CNN/ViT models with pre-training (from Pytorch) - did NOT build CNN/ViT from scratch
  3) Selected Cross Entropy Loss function and Stochastic gradient descent optimizer 
- 4) Executed model
+ 4) Executed model training
  
 ## Training Outpout
  ![image](https://user-images.githubusercontent.com/90996172/188314330-022499b8-c8b9-47b1-a336-a1191535eb90.png)
