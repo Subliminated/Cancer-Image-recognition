@@ -1,6 +1,6 @@
 ## Cancer Image recognition using CNN and Vision Transformers (ViT)
 
-As part of my masters coursework, one of my elected projects was to design and implement a solution to detect and classify different severity of tumors using **machine learning**. Usage of machine learning in the medical field is a widely popular research area with numerous academic studies already published online. For this project I explore pre-trained CNNs and Vision transformer models for histopathic image recognition. 
+As part of my masters coursework, one of my elected projects was to design and implement a solution to detect and classify different severity of tumors using **machine learning**. Usage of machine learning in the medical field is a widely popular research area with numerous academic studies already published online. For this project I explore various pre-trained CNNs and Vision transformer models for histopathic image recognition. 
 
 **Note**: 
 This project is intended for academic purposes - merely to demonstrate the application of learnings in real-world practice. I am NOT an expert in this field.
@@ -43,8 +43,8 @@ What?
   - Recall: Calculates the cost of type II error (false negatives) for the model. This implies patients with tumors are misdiadnosed as healthy.
   - F1 Score (class): Model evlaution metric that is sensitive to Type I (false positives) and Type II errors.
   
-## Results:
-The ViT model works remarkably well for histopathic image recognition and acheived an F1.score of 98.91% (way higher than group average) without any type II errors as indicated by recall of 100%. Of the 88 images in the test set, only 2 images were misclassified (class 1 and 3) which shows 
+## Results
+The ViT model works remarkably well for histopathic image recognition and acheived an F1.score of 98.91% (way higher than group average) without any type II errors as indicated by recall of 100%. Of the 88 images in the test set, only 2 images were misclassified (class 1 and 3). On running the model against different sample test sets, the average test accuracy yielded was roughly 95%. 
  
 ### WIP
   - Hyperparameter tuning for the following...
@@ -54,5 +54,5 @@ The ViT model works remarkably well for histopathic image recognition and acheiv
     4) Epoch Size
   - Ensembling methods (combining models together)
   - Weighted F1 Scoring to increase weight of Type II error (instead of even distribution across 4 classes)
-  - Randomly shuffling data and remodelling in case for 'lucky draw' for results. 
+  - Randomly shuffling data and remodelling in case for 'lucky draw' for results
   - Procuring more images due to uneven distribution of images across classes
