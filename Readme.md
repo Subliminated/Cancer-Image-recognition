@@ -57,3 +57,4 @@ The ViT model works remarkably well for histopathic image recognition and acheiv
   - Randomly shuffling data and remodelling in case for 'lucky draw' for results
   - Procuring more images due to uneven distribution of images across classes
   - Create link to dropbox for sample data (to allow for others to run code)
+  - Share code for CNN models
