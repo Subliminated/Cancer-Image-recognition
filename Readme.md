@@ -56,3 +56,4 @@ The ViT model works remarkably well for histopathic image recognition and acheiv
   - Weighted F1 Scoring to increase weight of Type II error (instead of even distribution across 4 classes)
   - Randomly shuffling data and remodelling in case for 'lucky draw' for results
   - Procuring more images due to uneven distribution of images across classes
+  - Create link to dropbox for sample data (to allow for others to run code)
