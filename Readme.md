@@ -1,6 +1,6 @@
 ## Cancer Image recognition using CNN and Vision Transformers (ViT)
 
-As part of my masters coursework, one of my elected projects was to design and implement a solution to detect and classify different severity of tumors using **machine learning**. Usage of machine learning in the medical field is a widely popular research area with numerous academic studies already published online. For this project I explore various pre-trained CNNs and Vision transformer models for histopathic image recognition. 
+In one of my recent projects, I was tasked to design and implement a solution to detect and classify different severity of tumors using **machine learning**. Usage of machine learning in the medical field is a widely popular research area with numerous academic studies already published online. For this project I explore various pre-trained CNNs and Vision transformer models for histopathic image recognition. 
 
 **Note**: 
 This project is intended for academic purposes - merely to demonstrate the application of learnings in real-world practice. I am NOT an expert in this field.
